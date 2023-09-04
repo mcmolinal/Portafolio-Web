@@ -1,0 +1,137 @@
+
+body {
+    background-image: url('photo-1474540412665-1cdae210ae6b.avif'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+
+
+  header{
+    width: 1300px;
+    height: 250px;
+    background-color: #dcefed;
+    font-family: 'Roboto', sans-serif;
+    }
+
+img{
+    width: 200px;
+    height: 250px;
+    border-radius: 300px;
+}
+p{
+    
+        font-family: "Arial", sans-serif;
+        font-size: 16px;
+        color: #333;
+        line-height: 1.5;
+        /* Otros estilos que desees aplicar */
+    }
+    
+    
+
+.encabezado{
+    display:flex
+    
+
+}
+
+.fotoestudiante{
+    width: 150px;
+    height: 150px;
+    border-radius: 60px;
+}
+
+.titulo {
+    font-family: "Tu Tipo de Letra", sans-serif; /* Cambia "Tu Tipo de Letra" por el tipo de letra que desees */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  }
+  
+.datospersonales{
+    width: 250px;
+    height: 200px;
+    background-color: chartreuse;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+
+/*TRABAJOS*/
+
+.trabajos {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .art {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    gap: 50px;
+  }
+  
+  .art h2 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+
+
+  /*FOTO DE PERFIL*/
+
+  .fotoperfil
+  {
+    width: 50%;
+  }
+
+  .cont{
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Primera columna para la imagen, segunda columna para el texto */
+    align-items: center; /* Centrar verticalmente los elementos */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+
+    display: flex;
+  align-items: center;
+  }
+
+  /* Estilo para el elemento details */
+details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Estilo para el elemento summary */
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #122774;
+  }
+  
+  /* Estilo para la lista dentro del elemento details */
+  details ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  /* Estilo para los elementos de la lista dentro del elemento details */
+  details li {
+    margin-left: 20px;
+  }
+  
+  /* Estilo para cuando el summary está abierto (expandido) */
+  details[open] summary {
+    color: #b64241;; /* Cambia el color cuando se abre la lista */
+  }
+  
+  
