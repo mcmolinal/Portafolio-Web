@@ -1,26 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulta</title>
+    <title>Consulta de Protocolos</title>
+    <link rel="stylesheet" href="Consulta.css">
 </head>
 <body>
+    <h1>Consulta de Protocolos</h1>
 
-    <h1>Protocolos</h1>
-    <h2>Mabel Critina Molina Loaiza</h2>
-    <h3>Agosto 2023</h3>
+    <div class="protocols-container">
+        <div class="protocol">
+            <h2>HTTP</h2>
+            <p>
+                Es un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. 
+                Es la base de cualquier intercambio de datos en la Web, y un protocolo de estructura cliente-servidor, esto 
+                quiere decir que una petición de datos es iniciada por el elemento que recibirá los datos (el cliente), 
+                normalmente un navegador Web. Así, una página web completa resulta de la unión de distintos subdocumentos recibidos, 
+                como, por ejemplo: un documento que especifique el estilo de maquetación de la página web (CSS), el texto, las 
+                imágenes, vídeos, scripts, etc...
+            </p>
+        </div>
 
-    <div>
+        <div class="protocol">
+            <h2>TCP</h2>
+            <p>
+                Es protocolo de red importante que permite que dos anfitriones (hosts) se conecten e intercambien flujos de datos. 
+                TCP garantiza la entrega de datos y paquetes (en-US) en el mismo orden en que se enviaron. Vint Cerf y Bob Kahn,
+                científicos de DARPA por aquél entonces, diseñaron TCP en la década de los 70.
+                El rol de TCP es garantizar que los paquetes se entreguen de forma confiable y sin errores. TCP tiene control de 
+                concurrencia, lo que significa que las solicitudes iniciales serán pequeñas, aumentando de tamaño a los niveles de
+                 ancho de banda que los ordenadores, servidores y redes puedan soportar.
+
+            </p>
+        </div>
+
+        <div class="protocol">
+            <h2>DNS</h2>
+            <p>
+                Es un protocolo de Internet que tiene como función la resolución de nombres de dominio, traduciendo estos mismos en IPs.
+                Cada dominio tiene asignado unos DNS (Nameservers), permitiendo traducir el nombre de dominio a la IP correspondiente.
+                Por ejemplo, si queremos ir a la web de webempresa.com, tendremos que escribir el nombre del dominio en el navegador o 
+                en el buscador. Una vez realizada la petición para acceder a la web, el navegador necesitará conocer la dirección IP 
+                del servidor donde está ubicada la información de la web.
+                Para conocer esa IP, el navegador comprobará si esta información está en la caché de DNS del equipo desde que se realiza
+                la petición.
+                
+            </p>
+        </div>
+
+        <div class="protocol">
+            <h2>CDN</h2>
+            <p>
+                Es un protocolo o sistema diseñado para mejorar la velocidad y la eficiencia de la entrega de contenido en línea, como
+                páginas web, imágenes, videos, archivos y otros recursos multimedia, a usuarios finales en diferentes ubicaciones 
+                geográficas.
+                Una CDN funciona distribuyendo copias del contenido en múltiples servidores ubicados en diferentes regiones geográficas
+                o puntos de presencia (PoPs). Cuando un usuario solicita un recurso en línea, la CDN redirige la solicitud al servidor
+                más cercano en términos de latencia, en lugar de enviarla directamente al servidor de origen. Esto reduce la latencia
+                y mejora la velocidad de carga del contenido para el usuario.
+                
+            </p>
+        </div>
+
+        <div class="protocol">
+            <h2>WWW</h2>
+            <p>
+                El Protocolo WWW, o World Wide Web Protocol, se refiere a una serie de reglas y estándares que permiten que la Worl
+                Wide Web funcione de manera efectiva. El Protocolo WWW es esencialmente un conjunto de pautas que gobiernan la comunicación
+                entre un navegador web (como Chrome, Firefox o Safari) y un servidor web.
+                Es fundamental para el funcionamiento de Internet tal como lo conocemos. Facilita la solicitud y entrega de contenido web,
+                lo que permite a los usuarios navegar por la web y acceder a una amplia variedad de recursos, desde páginas estáticas
+                hasta aplicaciones web dinámicas.
+                
+            </p>
+        </div>
+
+        <div class="protocol">
+            <h2>FTP</h2>
+            <p>
+                Es un protocolo de red utilizado para transferir archivos entre un cliente y un servidor a través de una red de computadoras,
+                como Internet. FTP es un protocolo de la capa de aplicación que permite a los usuarios copiar archivos de sus computadoras
+                locales a un servidor remoto o viceversa.
+                Es un protocolo ampliamente utilizado para la transferencia de archivos, pero es importante tener en cuenta que no es el
+                protocolo más seguro, ya que las credenciales y los datos transferidos no están cifrados de forma predeterminada. Para
+                mejorar la seguridad, se pueden utilizar variantes como FTPS (FTP Seguro) o SFTP (SSH File Transfer Protocol), que añaden 
+                capas de cifrado para proteger la confidencialidad de los datos durante la transferencia.
+                
+            </p>
+        </div>
+
+        <div class="protocol">
+            <h2>HTML</h2>
+            <p>
+                Es el lenguaje estándar utilizado para crear y diseñar páginas web. Un protocolo, por otro lado, se refiere a un conjunto 
+                de reglas y convenciones que rigen la comunicación entre dos dispositivos o sistemas. No obstante, HTML no es un protocolo
+                en sí, sino un lenguaje de marcado utilizado para estructurar y dar formato a contenido en la web.
+
+                Para la comunicación entre dispositivos en la web, se utiliza el Protocolo de Transferencia de Hipertexto (HTTP), que es
+                un protocolo que define cómo los mensajes se transmiten y gestionan en la World Wide Web. HTTP se utiliza para solicitar 
+                y enviar recursos, como páginas web, imágenes, videos, etc., a través de Internet. A menudo, se combina con HTML para 
+                crear aplicaciones y páginas web interactivas.
+
+            </p>
+        </div>
 
     </div>
-    <section>
-        <article>
-            <p>
-                <h3>HTTP</h3>
-                <li>jhgjmhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhgvufvyifvj,gbk,b</li>
-            </p>
-        </article>
-    </section>
 </body>
 </html>

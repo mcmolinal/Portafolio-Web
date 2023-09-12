@@ -1,104 +1,106 @@
-:root{
-    /* CSS HEX */
---rose-pompadour: #e27396ff;
---amaranth-pink: #ea9ab2ff;
---mimi-pink: #efcfe3ff;
---beige: #eaf2d7ff;
---light-blue: #b3dee2ff;
---mindaro: #edf67dff;
---persian-pink: #f896d8ff;
---heliotrope: #ca7df9ff;
---majorelle-blue: #724cf9ff;
---ultra-violet: #564592ff;
---periwinkle: #d8dcffff;
---periwinkle-2: #aeadf0ff;
---rosy-brown: #c38d94ff;
---china-rose: #a76571ff;
---ultra-violet: #565676ff;
---bone: #ccc7b9ff;
---nyanza: #eaf9d9ff;
---pearl: #e2d4baff;
---old-rose: #af7a6dff;
---wine: #653239ff;
---chinese-violet: #925e78ff;
---lilac: #bd93bdff;
---isabelline: #f2edebff;
---bright-pink-crayola: #f05365ff;
---magenta-dye: #d30c7bff;
+:root {
+    /* Bingo Colores */
+    --background-color: #f0d6eb; /* Background color */
+    --header-color: #cb7dbb; /* Header background color */
+    --header-text-color: #ffffff; /* Header text color */
+    --table-color: #fff8e1; /* Table background color */
+    --cell-color: #ffee58; /* Cell background color */
+    --cell-text-color: #333333; /* Cell text color */
+    --highlight-color: #bd4e9e; /* Highlight color on hover */
 }
-body{
-    width: 1500px;
+
+body {
+    width: 100%; /* Utiliza el 100% del ancho de la ventana */
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color:var(--);
-    background-color: var(--mimi-pink);
+    color: var(--cell-text-color);
+    background-color: var(--background-color);
     font-size: 16px;
 }
-h1{
-    font-size: 48px;
-    color: var(--magenta-dye);
+
+#bg-image {
+    width: 100%;
+    height: 50vh; /* Ajusta la altura al 100% de la ventana gráfica del navegador */
+    margin: 0; /* Elimina los márgenes predeterminados del encabezado */
+    background-image: url('Bingo_img.png');
+    background-size: 40% auto; /* Ajusta el tamaño de la imagen al 50% del ancho y auto de alto */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: center top; /* Ajusta la imagen en la parte superior del contenedor */
+    background-attachment: fixed; /* Fija la imagen de fondo para que se mantenga en su lugar al desplazarse */
 }
-table{
-    background-color: var(--amaranth-pink);
-    width: 350px;
-    height: 300px;
+
+
+
+
+
+
+
+
+table {
+    background-color: var(--table-color);
+    width: 550px; /* Aumenta el ancho de la tabla */
+    height: 450px; /* Aumenta la altura de la tabla */
     padding: 20px;
     border-radius: 25px;
-    border-style:solid;
-    border-collapse:collapse;
-    
+    border-style: solid;
+    border-collapse: collapse;
+    margin-top: 20px; /* Agrega margen superior para centrar la tabla */
 }
-.caja{
+
+.caja {
     width: 90px;
     height: 80px;
-    margin:15px;
+    margin: 15px;
     text-align: center;
-
-    background-color: var(--periwinkle);
+    background-color: var(--cell-color);
     border-radius: 100px;
     display: flex;
 }
-.colo1{
-    background-color: var(--heliotrope);
-    
+
+.colo1 {
+    background-color: var(--highlight-color);
 }
-.fila{
-    display:flex;
+
+.fila {
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    width:90%;
-    gap:19px;
-    
-
+    width: 90%;
+    gap: 19px;
 }
-.column{
+
+.column {
     width: 50%;
-    background-color: var(--bright-pink-crayola);
+    background-color: var(--header-color);
 }
 
-#revision:hover{
-    background-color:var(--wine) ;
+#revision:hover {
+    background-color: var(--highlight-color);
 }
 
-.alerta:hover{
-    background-color:var(--wine);
+.alerta:hover {
+    background-color: var(--highlight-color);
 }
 
-
-th{
+th {
     width: 100px;
     text-align: right;
     padding: 15px 10px 20px 10px;
-    border-style:solid;
-    background-color: var(--china-rose);
-
-
+    border-style: solid;
+    background-color: var(--header-color);
 }
-td{
+
+td {
     text-align: center;
     border-style: solid;
     padding: 10px;
-   
+}
+
+td:hover{
+    background-color:  rgb(235, 163, 235);
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: mediumorchid ;
 }

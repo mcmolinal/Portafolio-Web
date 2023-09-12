@@ -1,0 +1,49 @@
+/* Consulta.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #daf6f2;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #0d0d0e;
+    color: #94a9dd;
+}
+
+.protocols-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.protocol {
+    background-color: #ffffff;
+    border: 1px solid #3e3d3d;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los títulos de protocolos */
+.protocol h2 {
+    color: #000000;
+}
+
+/* Estilos para los párrafos de protocolos */
+.protocol p {
+    color: #383636;
+}
+
+/* Estilos para el enlace */
+a {
+    color: #7799b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
